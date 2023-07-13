@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700;800;900&display=swap');;
+
+* {
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background-color: #191919;
+}
+
+body::-webkit-scrollbar {
+    width: 0px; 
+  }
+
+/*Estilização da Navbar*/
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 15px;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.nav-logo {
+    font-weight: 800;
+    font-size: 20px;
+    color: #E7B10A;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.nav-itens {
+    list-style: none;
+    display: flex;
+}
+
+.nav-itens > li > a {
+    padding-left: 20px;
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+
+.nav-itens > li > a:hover {
+    transition: 0.5s;
+    color: #E7B10A;
+}
+
+/*Estilização do Formulário*/
+form {
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+} 
+
+#title-login {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 46px;
+    margin: 0;
+}
+
+#subtitle-login {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    margin: 0;
+}
+
+.textfield {
+    color: white;
+    margin: 10px 0px;
+}
+
+.textfield > label {
+    font-family: 'Montserrat', sans-serif; font-weight: 700; color: #E7B10A;
+    margin-left: 5px;
+}
+
+.textfield > input {
+    width: 100%;
+    margin-bottom: 8px;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #fff;
+    color: #454545;
+    font-size: 12pt;
+    box-shadow: 0 8px 40px #00000056;
+    outline: none;
+    box-sizing: border-box;
+    transition: 1s;
+}
+
+.textfield > input:hover {
+    background-color: #ffda69;
+}
+
+#btn-login {
+    font-family: 'Montserrat', sans-serif; color: #191919; 
+    width: 22vw;
+    padding: 15px 0px;
+    border-radius: 10px;
+    border: none;
+    margin: 10px;
+    outline: none;
+    text-transform: uppercase;
+    background-color: #E7B10A;
+    cursor: pointer;
+    box-shadow: 0 8px 40px -12px #ffda69;
+}
+
+#btn-login:hover
+{
+    transition: 2s;
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+     transform: scale(1.1);
+}

@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700;800&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background-color: #191919;
+}
+
+body::-webkit-scrollbar {
+    width: 0px; 
+  }
+
+
+/*Estilização da Navbar*/
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 15px;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.nav-logo {
+    font-weight: 800;
+    font-size: 20px;
+    color: #E7B10A;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.nav-itens {
+    list-style: none;
+    display: flex;
+}
+
+.nav-itens > li > a {
+    padding-left: 20px;
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+
+.nav-itens > li > a:hover {
+    transition: 0.5s;
+    color: #E7B10A;
+}
+
+.btn-passageiro {
+    padding: 14px;
+    font-size: 16px;
+    font-weight: 800;
+    font-family: 'Montserrat', sans-serif;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    background-color: #E7B10A;
+    cursor: pointer;
+}
+
+.btn-passageiro:hover {
+    transition: 1s;
+    background-color: #ffda69;
+    box-shadow: 0 8px 20px -12px #ffda69;
+    transition: 1s;
+}
+
+.btn-motorista {
+    padding: 14px;
+    font-size: 16px;
+    font-weight: 800;
+    font-family: 'Montserrat', sans-serif;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    background-color: #E7B10A;
+    cursor: pointer;
+}
+
+.btn-motorista:hover {
+    transition: 1s;
+    background-color: #ffda69;
+    box-shadow: 0 8px 20px -12px #ffda69;
+    transition: 1s;
+}
+
+.btn-login {
+    padding: 14px;
+    font-size: 16px;
+    font-weight: 800;
+    font-family: 'Montserrat', sans-serif;
+    border: none;
+    border-radius: 10px;
+    color: #E7B10A;
+    background-color: white;
+    cursor: pointer;
+}
+
+.btn-login:hover {
+    transition: 1s;
+    background-color: white;
+    box-shadow: 0 8px 20px -12px white;
+    transition: 1s;
+}
+
+/*Estilização do Formulário*/
+.texto-principal {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.first-text {
+    font-family: 'Montserrat', sans-serif;
+    flex-direction: column;
+    font-size: 40px;
+    color: #E7B10A;
+}
+
+
+/*Estilização do "Sobre nós"*/
+.img-principal {
+    width: 40%;
+    justify-content: center;
+    align-items: center;
+}
+
+#sec-sobre-nos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#title-sobre-nos {
+    font-size: 40px;
+    margin-left: 5px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    color: #E7B10A;
+}
+
+#imagem-onibus {
+    width: 15vw;
+    margin: 0;
+    margin-right: 50px;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    filter: invert(100%);
+}
+
+#imagem-onibus:hover {
+    color: #E7B10A;
+}
+
+#paragrafo-sobre-nos {
+    width: 50vw;
+    line-height: 1.5em;
+    text-align: justify;
+    font-weight: 400;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style3.css">
+    <title>Seja um motorista</title>
+</head>
+<body>
+
+<!--Navbar, topo do site-->
+    <nav>
+        <div class="nav-logo">Zimt Transport</div>
+            <ul class="nav-itens">
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="https://t.me/+QOoriWI0Cz05ZjZh">Suporte</a></li>
+            </ul>
+    </nav>
+
+<!--Formulário do "Seja um motorista"-->
+    <form>
+        <h1 id="title-login">REGISTRE-SE</h1>
+        <h3 id="subtitle-login">Junte-se ao nosso time!</h3>
+
+        <div class="textfield">
+            <label for="username">Nome Completo</label>
+            <input type="text" name="username" placeholder="Nome completo" required="required">
+        <br>
+            <label for="cnh">Número da CNH</label>
+            <input type="number" name="cnh" maxlength="9" placeholder="Número da CNH" required="required">
+        <br>
+            <label for="date">Data de nascimento</label>
+            <input type="date" name="date" placeholder="Data de nascimento" required="required">
+        <br>
+            <label for="faceid">Reconhecimento facial</label>
+            <input type="file" name="faceid" placeholder="Selecione sua foto" required="required"> 
+        <br>
+            <label for="email">E-mail</label>
+            <input type="email" name="email" required placeholder="E-mail">
+        <br>   
+            <label for="tel">Celular</label>
+            <input type="number" minlength="9" maxlength="14" name="tel" required placeholder="(xx) xxxxx-xxxx">
+        <br>
+            <label for="pass">Crie sua senha</label>
+            <input type="password" name="pass" minlength="8" maxlength="16" placeholder="Senha" required="required">
+        </div>
+            <button id="btn-login">Enviar</button>
+    </form>
+</body>
+</html>
